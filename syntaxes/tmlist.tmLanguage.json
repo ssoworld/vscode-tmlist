@@ -1,0 +1,35 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "TMList",
+	"patterns": [
+		{
+			"include": "#comment"
+		},
+		{
+			"include": "#keywords"
+		}
+	],
+	"repository": {
+		"comment": {
+			"patterns": [
+				{
+					"begin": "((?=^.*)|(?!^.*))#.*",
+         "captures": {
+            "0": {
+              "name": "punctuation.definition.comment.tmlist"
+            }
+          },
+          "end": "$",
+          "name": "comment.line.tmlist"
+        }
+      ]
+    },
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.tmlist",
+				"match": "\\b(if|while|for|return)\\b"
+			}]
+		}
+	},
+	"scopeName": "source.list"
+}

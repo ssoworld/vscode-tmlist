@@ -1,0 +1,25 @@
+{
+    "name": "tm-list",
+    "displayName": "tmlist",
+    "description": "Syntax Highlighting for TM List files",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "tmlist",
+            "aliases": ["TMList", "tmlist"],
+            "extensions": [".list"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "tmlist",
+            "scopeName": "source.list",
+            "path": "./syntaxes/tmlist.tmLanguage.json"
+        }]
+    }
+}
