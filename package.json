@@ -4,7 +4,7 @@
     "description": "Syntax Highlighting for TM List files",
     "version": "0.0.1",
     "engines": {
-        "vscode": "^1.64.0"
+        "vscode": "^2023.0.0"
     },
     "categories": [
         "Programming Languages"
