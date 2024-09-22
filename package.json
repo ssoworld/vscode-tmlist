@@ -13,7 +13,7 @@
         "languages": [{
             "id": "tmlist",
             "aliases": ["TMList", "tmlist"],
-            "extensions": [".list"],
+            "extensions": [".list", ".rlist"],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
